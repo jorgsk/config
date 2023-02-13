@@ -1,0 +1,6 @@
+git:
+  commitPrefixes:
+    memw: # This is repository folder name
+      # pattern: "(^\\d+)()"
+      pattern: "^(\\d+)(['-]\\w+)+"
+      replace: '$1-'
